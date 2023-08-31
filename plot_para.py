@@ -6,10 +6,10 @@ from matplotlib import pyplot as plt
 
 
 ############################################ para ########################################
-mat = scipy.io.loadmat('data\BV18_SimData_25Deg_MaxMinCell_LoSoC_Plus_CLTC.mat') 
-mat = mat["SimData_BV18"]
+mat = scipy.io.loadmat('data\1.mat') 
+mat = mat["SimData"]
 
-# 输入  电流I、端电压Ucell、温度t
+# 输入  
 time = mat[:,0]
 I = mat[:,1]   
 Ucell_max = mat[:,2]
